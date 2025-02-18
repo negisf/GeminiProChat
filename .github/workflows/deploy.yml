@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "negisf-geminiproch-30"
-          entrypoint: "server/entry.mjs"
+          entrypoint: "src/deno_index.ts"
           root: "dist"
           
           
